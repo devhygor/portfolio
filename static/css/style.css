@@ -1,0 +1,203 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    margin: 0;
+    line-height: 1;
+    font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(#041833,#04244F,#154580);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ol, ul {
+    margin: 0;
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+.menu-superior{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+nav {
+    max-width: 100%;
+    /* background: linear-gradient(#041833,#04244F,#154580); */
+    /* mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%); */
+    padding: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, );
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.685);
+    color: rgba(0, 35, 122, 0.7);
+}
+
+a{
+    text-decoration: none;
+}
+
+.dadosLateral h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 5px;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b688f;
+    padding: 15px;
+    margin: 0;
+}
+
+.conteudo p {
+    margin-left: 15px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.dadosLateral p {
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.curriculo b {
+    margin-left: 15px;
+}
+
+.curriculo i {
+    font-style: normal;
+    color: #4b688f;
+}
+
+.dadosLateral hr{
+    margin-top: -15px;
+    margin-left: 15px;
+    width: 90%;
+}
+
+.conteudo hr{
+    margin-top: -15px;
+    margin-left: 15px;
+    width: 96%;
+}
+
+
+.container{
+    display: flex;
+}
+
+.curriculo {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.dadosLateral{
+    width: 300px;
+    height: 1320px;
+    background-image: url("../images/lateral/lateral.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    float: left;
+    margin: auto;
+    align-items: center;
+}
+
+.conteudo{
+    width: 700px;
+    height: 1320px;
+
+}
+
+.profilepic{
+    height: 160px;
+    width: 160px;
+    background-color: #aaa;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    border: 5px solid rgb(160, 160, 160);
+}
+
+.profilepic img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+  
+.formacao p{
+    color: #4b688f;
+}  
+
+.experiencia p{
+    color: #4b688f;
+}
+
+.cursos p{
+    color: #4b688f;
+}
+
+.rodape_texto {
+    font-size: 1.1rem;
+}
+
+.rodape {
+    width: 100%;
+    padding: 0rem 3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.rodape__icones {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,123 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+    <div class="curriculo">
+        <div "{% static '/images/perfil/perfil.png' %}" class="dadosLateral">
+            <h1>Hygor Melo Rocha</h1>
+
+            <div class="profilepic">
+                <img src="{% static '/images/perfil/perfil.png' %}" alt="Foto Perfil">
+            </div>
+            <br>
+
+            <div class="dadosPessoais">
+
+                <h2>Dados Pessoais</h2>
+                <hr>
+
+                <table cellspacing="12">
+                    <tr>
+                        <td><i class="fa-solid fa-user"></i></td>
+                        <td>Hygor Melo Rocha</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-envelope"></i></td>
+                        <td>hygor.k92@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-phone-flip"></i></td>
+                        <td>(61) 9 8159-2866</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-house"></i></td>
+                        <td>Quadra 26, Lote 24/31 Vale do Pedregal CEP: 72861- 103 Novo Gama - GO</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-calendar-days"></i></td>
+                        <td>12 de novembro de 1996</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-car"></i></td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-venus-mars"></i></td>
+                        <td>Masculino</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-user-group"></i></td>
+                        <td>Casado</td>
+                    </tr>
+                </table>
+            </div>               
+
+            <div class="competencias">
+                <h2>Competências</h2>
+                <hr>
+                <p>Proatividade</p>
+                <p>Organização</p>
+                <p>Trabalho em equipe</p>
+                <p>Comprometimento</p>
+            </div>
+
+            <div class="idiomas">
+                <h2>Idiomas</h2>
+                <hr>
+                <p>Português</p>
+                <p>Inglês</p>
+            </div>
+
+        </div>
+            
+        <div class="conteudo">
+            <div class="perfil">
+                <h2>Perfil</h2>
+                <hr>
+                <p>Procuro oportunidade relacionada à área de desenvolvimento de sistemas, que possa trazer novas perspectivas de futuro. Estou à procura de minha primeira experiencia de trabalho após formado em Análise e Desenvolvimento de Sistemas. Quero desenvolver minhas habilidades e contribuir para o sucesso da empresa.</p>
+                <br>
+            </div>
+
+            <div class="formacao">
+                <h2>Formação</h2>
+                <hr>
+                <b>Ensino Médio</b>
+                <br>
+                <p>Carlos Drummond De Andrade, Novo Gama - GO</p>
+                <br>
+                <b>Análise e Desenvolvimento de Sistemas</b>
+                <br>
+                <p>UNOPAR, Novo Gama - GO</p>
+                <br>
+    
+            </div>
+
+            <div class="experiencia">
+                <h2>Experiencia</h2>
+                <hr>
+                <b>Auxiliar de escritório em geral</b> <br>
+                <p>Centro de integração Empresa Escola, Brasília - DF <br><br></p>
+                <b>Militar</b> <br>
+                <p>Comando da Aeronáutica, Brasília - DF</p>
+                <br>
+
+            </div>
+
+            <div class="cursos">
+                <h2>Cursos</h2>
+                <hr>
+                <b>Word Avançado - Microlins</b> <br><br>
+                <b>Excel Avançado - Microlins</b> <br><br>
+                <b>Power Point Avançado - Microlins</b> <br><br>
+                <b>Hardware e Software - Microlins</b> <br>
+                <p>Montagem, desmontagem e manutenção de computadores<br><br></p>
+                <b>Desenvolvimento Web Completo - Udemy</b><br>
+                <p>HTML5, CSS3, BootStrap 4, JS, ES6, ES7, PHP 7, POO, MySQL, JQuery, MVC, API, IONIC e Wordpress. <br><br></p>
+                <b>Algoritmos e Lógica de Programação - Udemy </b><br>
+                <p>C, C++, Python, C# e Java</p>
+            </div> 
+        </div>
+    </div>   
+</div>
+
+{% endblock %}
